@@ -1,8 +1,11 @@
 # 🧼 CleanHtmlTable
+by Tomas Salaj
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![Demo](https://img.shields.io/badge/demo-vycistihtml.cz-brightgreen)](https://vycistihtml.cz)
+
+---
 
 📝 The live demo is available in **Czech** at the link above.
 
