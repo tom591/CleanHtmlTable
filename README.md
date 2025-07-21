@@ -1,5 +1,9 @@
 # 🧼 CleanHtmlTable
 
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+[![Demo](https://img.shields.io/badge/demo-vycistihtml.cz-brightgreen)](https://vycistihtml.cz)
+
 **CleanHtmlTable** is a web application designed to clean HTML code by removing unwanted styles and unnecessary elements.
 
 ---
