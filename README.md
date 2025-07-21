@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![Demo](https://img.shields.io/badge/demo-vycistihtml.cz-brightgreen)](https://vycistihtml.cz)
 
+📝 The live demo is available in **Czech** at the link above.
+
 **CleanHtmlTable** is a web application designed to clean HTML code by removing unwanted styles and unnecessary elements.
 
 ---
