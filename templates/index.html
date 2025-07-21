@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CleanHtmlTable is a web application designed to clean HTML code by removing unwanted styles and unnecessary elements">
+<meta name="keywords" content="clean,html,table">
+<meta name="author" content="Tom Salaj">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>CleanHtmlTable</title>
+<style>
+*{box-sizing:border-box;}
+.col-container{display:table; width:100%;}
+.col{display:table-cell; padding:16px;width:50%;}
+@media only screen and (max-width:600px){.col{display:block; width:100%;}}
+textarea{width:100%; height:250px;}
+label{display:block; padding:10px;}
+</style>
+<script>
+function copy() {
+  let textarea = document.getElementById("cleaned_html");
+  textarea.select();
+  document.execCommand("copy");
+}
+</script>
+</head>
+<body>
+<div class="col-container">
+<div class="col w3-green">
+<h1>CleanHtmlTable</h1>
+<h2>An online converter that transforms styled HTML code into clean, plain HTML</h2>
+</div>
+<div class="col w3-pale-green">
+<h3>CleanHtmlTable is a web application designed to clean HTML code by removing unwanted styles and unnecessary elements.</h3>
+<form method="post">
+<p>Will be removed:
+<input name="tags" type="checkbox" checked value="class"/> class,
+<input name="tags" type="checkbox" checked value="id"/> id,
+<input name="tags" type="checkbox" checked value="name"/> name,
+<input name="tags" type="checkbox" checked value="style"/> style,
+<input name="tags" type="checkbox" checked value="width"/> width,
+<input name="tags" type="checkbox" checked value="height"/> height,
+<input name="tags" type="checkbox" checked value="align"/> align,
+<input name="tags" type="checkbox" checked value="valign"/> valign,
+<input name="tags" type="checkbox" checked value="nowrap"/> nowrap,
+<input name="tags" type="checkbox" checked value="border"/> border,
+<input name="tags" type="checkbox" checked value="cellspacing"/> cellspacing,
+<input name="tags" type="checkbox" checked value="cellpadding"/> cellpadding
+<br>Will remain: table, tr, td, th, thead, tbody, a, br, p, h1, h2, h3, h4</p>
+</div>
+</div>
+<div class="col-container">
+<div class="col">
+<p><strong>Paste the HTML code you want to clean</strong></p>
+<textarea id="html_code" name="html_code" rows="20">{{ html_code }}</textarea>
+<input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+<input class="w3-button w3-red" type="submit" value="Clean HTML !!">
+</div>
+<div class="col">
+<p><strong>Here is your cleaned HTML without unwanted styles and elements</strong></p>
+<textarea id="cleaned_html" name="cleaned_html" rows="20" readonly>{{ cleaned_html|safe }}</textarea>
+<input class="w3-button w3-blue" onclick="copy()" value="Copy Cleaned Code !!">
+</form>
+</div>
+</div>
+<div class="col-container">
+<div class="col w3-pale-green w3-center">
+<p class="w3-small">&copy; Tom Salaj 2025 | web app built with <a href="https://www.python.org">Python</a> and <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a></p>
+</div>
+</div>
+</body>
+</html>
