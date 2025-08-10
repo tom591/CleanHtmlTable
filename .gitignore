@@ -1,1 +1,1 @@
-git rm --cached templates/index.html
+*.html linguist-detectable=false
