@@ -10,7 +10,7 @@ by Tom Salaj
 ## 🧰 What is it?
 📝 The live demo is available in **Czech** at the link above.
 
-**CleanHtmlTable** is a web application designed to clean HTML code by removing unwanted styles and unnecessary elements.
+**CleanHtmlTable** is a Flask-based web application designed to clean HTML code by removing unwanted styles and unnecessary elements.
 
 ---
 
