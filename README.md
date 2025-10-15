@@ -72,14 +72,10 @@ To run locally:
 
 ---
 
-## 🪪 License
+## 📝 License
 
-Licensed under the **MIT License** — you're free to:
-
-- use it  
-- modify it  
-- extend it  
-- integrate it (e.g. with a WYSIWYG editor to paste tables from Word or Excel)
+This project is released under the [MIT License](LICENSE).  
+Use freely, modify as needed. No warranty provided.
 
 ---
 
@@ -87,3 +83,5 @@ Licensed under the **MIT License** — you're free to:
 
 **Learn, code, enjoy — good luck!**  
 *Tom Salaj*
+
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20a%20Coffee&emoji=☕&slug=tomsalaj&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/tomsalaj)
