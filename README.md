@@ -6,7 +6,7 @@ by Tom Salaj
 [![Demo](https://img.shields.io/badge/demo-vycistihtml.cz-brightgreen)](https://vycistihtml.cz)
 
 ---
-
+## 🧰 What is it?
 📝 The live demo is available in **Czech** at the link above.
 
 **CleanHtmlTable** is a web application designed to clean HTML code by removing unwanted styles and unnecessary elements.
