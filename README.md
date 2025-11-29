@@ -1,4 +1,4 @@
-# 🧼 CleanHtmlTable
+# 🧼 clean-html-table
 by Tom Salaj
 
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/) 
