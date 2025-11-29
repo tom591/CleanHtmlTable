@@ -2,7 +2,7 @@
 by Tom Salaj
 
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
-![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey?logo=flask)
+[![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey?logo=flask)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/tom591/CleanHtmlTable?tab=MIT-1-ov-file)
 [![Demo](https://img.shields.io/badge/demo-vycistihtml.cz-brightgreen)](https://vycistihtml.cz)
 
